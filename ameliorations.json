@@ -1,0 +1,59 @@
+[
+    {
+        "nom":"Qualité supérieure",
+        "cout": 5,
+        "tempsRecherche": 5,
+        "effetsAmelioration": [
+            {
+                "type": "com.usine.effetsamelioration.AmeliorationQualiteProduction"
+            }
+        ]
+    },
+    {
+        "nom":"Temps supplémentaire",
+        "cout": 7,
+        "tempsRecherche": 3,
+        "effetsAmelioration": [
+            {
+                "type": "com.usine.effetsamelioration.AmeliorationTempsProduction",
+                "facteurTempsProduction": 0.1
+            }
+        ]
+    },
+    {
+        "nom":"Plieur géant",
+        "cout": 10,
+        "tempsRecherche": 4,
+        "effetsAmelioration": [
+            {
+                "type": "com.usine.effetsamelioration.AmeliorationQuantiteProduite",
+                "quantiteAugmentee": 2
+            }
+        ]
+    },
+    {
+        "nom":"Bonus de fin d'année",
+        "cout": 12,
+        "tempsRecherche": 3,
+        "effetsAmelioration": [
+            {
+                "type": "com.usine.effetsamelioration.AmeliorationTempsProduction",
+                "facteurTempsProduction": 0.5
+            },
+            {
+                "type": "com.usine.effetsamelioration.AmeliorationQuantiteProduite",
+                "quantiteAugmentee": 1
+            }
+        ]
+    },
+    {
+        "nom":"Qualité supérieure",
+        "cout": 5,
+        "tempsRecherche": 5,
+        "effetsAmelioration": [
+            {
+                "type": "com.usine.effetsamelioration.AmeliorationQualiteProduction"
+            }
+        ]
+    }
+]
